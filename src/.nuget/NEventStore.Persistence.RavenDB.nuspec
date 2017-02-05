@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>NEventStore.Persistence.RavenDB</id>
-    <version>5.0</version>
+    <version>5.2.1-hotfix-1</version>
     <title>NEventStore RavenDB Persistence Plugin</title>
     <authors>NEventStore Dev Team</authors>
     <owners>NEventStore Dev Team</owners>
@@ -18,7 +18,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="publish-net40\plugins\persistence\raven\NEventStore.Persistence.RavenDB.dll" target="lib\net40"/>
-    <file src="publish-net40\plugins\persistence\raven\NEventStore.Persistence.RavenDB.pdb" target="lib\net40"/>
+    <file src="..\NEventStore.Persistence.RavenDB\bin\DEBUG\NEventStore.Persistence.RavenDB.dll" target="lib\net40" />
+    <file src="..\NEventStore.Persistence.RavenDB\bin\DEBUG\NEventStore.Persistence.RavenDB.pdb" target="lib\net40" />
   </files>
 </package>

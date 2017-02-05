@@ -90,9 +90,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\dependencies\NEventStore\src\NEventStore.Persistence.AcceptanceTests\PersistenceTests.cs">
-      <Link>AcceptanceTests\PersistenceTests.cs</Link>
-    </Compile>
     <Compile Include="AcceptanceTests\PersistenceEngineFixture.cs" />
     <Compile Include="RavenPersistenceAmbientTransactionTests.cs" />
     <Compile Include="RavenPersistenceEngineFixture.cs" />
@@ -106,17 +103,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\dependencies\NEventStore\src\NEventStore.Persistence.AcceptanceTests\NEventStore.Persistence.AcceptanceTests.csproj">
-      <Project>{3fe594fe-16ff-4405-97d5-5a58fb12520b}</Project>
-      <Name>NEventStore.Persistence.AcceptanceTests</Name>
-    </ProjectReference>
     <ProjectReference Include="..\NEventStore.Persistence.RavenDB\NEventStore.Persistence.RavenDB.csproj">
       <Project>{F9E7FD69-0818-48CA-9249-5387739E1B6A}</Project>
       <Name>NEventStore.Persistence.RavenDB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\dependencies\NEventStore\src\NEventStore\NEventStore.csproj">
-      <Project>{03946843-F343-419C-88EF-3E446D08DFA6}</Project>
-      <Name>NEventStore</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
